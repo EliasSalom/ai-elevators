@@ -1,0 +1,28 @@
+.floor{
+  display: flex;
+  flex-direction: row;
+  border: white 1px solid;
+  .personSide{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    width: 40%;
+  }
+  .simulatorSide{
+    height: 100px;
+    width: 60%;
+    background-color: #7DB2FF;
+  }
+  .floorNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #5356FF;
+  }
+}

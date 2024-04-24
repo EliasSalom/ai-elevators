@@ -1,0 +1,40 @@
+$roofSize: 100%;
+.roof{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .roof1 {
+    height: 70px;
+    width: calc($roofSize - 60%);
+    background-color: #7DB2FF;
+    border-radius: calc($roofSize - 20px) calc($roofSize - 20px) 0% 0%;
+    position: relative;
+    top: 30px;
+  }
+
+  .roof2 {
+    height: 70px;
+    width: calc($roofSize - 40%);
+    background-color: #7DB2FF;
+    border-radius: calc($roofSize - 20px) calc($roofSize - 20px) 0% 0%;
+    position: relative;
+    top: 20px;
+  }
+
+  .roof3 {
+    height: 70px;
+    width: calc($roofSize - 20%);
+    background-color: #7DB2FF;
+    border-radius: calc($roofSize - 20px) calc($roofSize - 20px) 0% 0%;
+    position: relative;
+    top: 10px;
+  }
+  .roof4 {
+    height: 70px;
+    width: $roofSize;
+    background-color: #7DB2FF;
+    border-radius: calc($roofSize - 20px) calc($roofSize - 20px) 0% 0%;
+  }
+}
+
